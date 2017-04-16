@@ -1,9 +1,23 @@
  #home {
 	 background-image: none;
  }
+ .home-title{
+
+ }
  .contact-map{
 	 height: 505px;
  }
+ .main-contain-section .container{
+ 	width: 97%;
+ }
+ .main-contain-section .down-btn{
+ 	bottom:-28px;
+ }
+.home-inner p{
+	max-width: 940px;
+	margin: 0 auto;
+	margin-bottom: 38px;
+}
 @media (max-width: 991px){
 	.resume-btn{
 	    margin: 30px auto 0;
@@ -12,5 +26,8 @@
 	}
 	.contact-map{
 		margin-top: 20px;
+	}
+	.home-title {
+	    line-height: 36px;
 	}
 }
