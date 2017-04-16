@@ -1,0 +1,16 @@
+ #home {
+	 background-image: none;
+ }
+ .contact-map{
+	 height: 505px;
+ }
+@media (max-width: 991px){
+	.resume-btn{
+	    margin: 30px auto 0;
+	    width: 236px;
+	    display: block;
+	}
+	.contact-map{
+		margin-top: 20px;
+	}
+}
