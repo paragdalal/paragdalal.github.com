@@ -238,7 +238,8 @@ jQuery(function($){
 	$("#slide-out li a").on("click",function(){
 		$(".button-collapse").click();
 	});
-	$(".contact-form button").on("click", function(){
+	$(".contact-form button").on("click", function(e){
+		e.preventDefault();
 		alert("Work in progress, stay tune!");
 	});
 	
