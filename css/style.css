@@ -251,9 +251,11 @@ nav .brand-logo img {
 }
 
 
-.resume-btn{
+.about-inner-right .hire-me-btn{
   margin-top: 160px;
-  margin-left: 50px;
+  margin-left: 50px !important;
+	max-width: 9em;
+	text-align: left;
 }
 
 
